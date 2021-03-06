@@ -26,7 +26,7 @@ function setup() {
 	ground = new Ground(200,690,3000,20);
 
 
-	paper = new Paper(200,200,20);
+	paper = new Paper(200,200,50);
 	dustbin  = new Dustbin(500,580,200,200);
    //dustbin1  = new Dustbin(410,630,20,100);
    //dustbin2  = new Dustbin(590,630,20,100);
@@ -40,7 +40,7 @@ function setup() {
 
 function draw() {
   rectMode(CENTER);
-  background("black");
+  background("white");
   
 
 
